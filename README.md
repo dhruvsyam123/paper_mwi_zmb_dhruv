@@ -30,6 +30,18 @@ paper_mwi_zmb/
 └── marking/                       # Assignment guidelines
 ```
 
+## Data Availability
+
+**⚠️ Important:** The raw data files are **NOT included in this GitHub repository** due to their large size (>100MB).
+
+The following data files are required to run the analysis:
+- `data/all_food_prices_clean.csv` (~246 MB)
+- `data/all_roads_filtered.gpkg` (road infrastructure data)
+
+**To obtain the data files and run this analysis, please contact the me (Dhruv).**
+
+Once you have the data files, place them in the `data/` directory before running the scripts.
+
 ## Requirements
 
 - Python 3.8+
@@ -48,6 +60,8 @@ pip install pandas numpy geopandas matplotlib seaborn statsmodels scipy
 ```
 
 ## How to Run
+
+**Prerequisites:** Ensure you have obtained the required data files (see Data Availability section above) and placed them in the `data/` directory.
 
 ### Option 1: Run All Scripts (Recommended)
 
